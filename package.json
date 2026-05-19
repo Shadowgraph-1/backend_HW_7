@@ -1,0 +1,33 @@
+{
+  "name": "backend_hw_7",
+  "version": "1.0.0",
+  "description": "**Зачем?**\r Вы научитесь подключать к Fastify реальные плагины, которые используются на каждом проекте (валидация, CORS, env, логирование). А потом возьмёте «толстый контроллер» и разобьёте его на три слоя — так, чтобы бизнес-логику можно было вызвать без HTTP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "before": "node before/server.js",
+    "start": "node src/server.js",
+    "demo": "node src/demo-without-http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shadowgraph-1/backend_HW_7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Shadowgraph-1/backend_HW_7/issues"
+  },
+  "homepage": "https://github.com/Shadowgraph-1/backend_HW_7#readme",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.3"
+  }
+}
